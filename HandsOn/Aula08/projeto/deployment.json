@@ -1,0 +1,12 @@
+{
+	"name": "Terminus",
+	"repo": "https://github.com/AlissonMMenezes/Terminus.git",
+	"commands": [
+		"apt-get update",
+		"apt-get -f install python -y",
+		"apt-get -f install python-dev -y",
+		"apt-get -f install python-setuptools -y",
+		"apt-get install sqlite3 -y",
+		"easy_install pyramid_mailer"
+	]
+}
